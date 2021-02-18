@@ -6,6 +6,7 @@ import CounterThree from './components/CounterThree'
 import CounterTwo from './components/CounterTwo'
 import ComponentC from './components/contextComopnents/ComponentC'
 import CounterUseReducer from './components/CounterUseReducer'
+import CounterUseReducer1 from './components/CounterUseReducer1'
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
@@ -23,6 +24,7 @@ function App() {
 				</ChannelContext.Provider>
 			</UserContext.Provider>
 			<CounterUseReducer />
+			<CounterUseReducer1 />
 		</div>
 	)
 }
